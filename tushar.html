@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tushar Singh - Portfolio</title>
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      color: #fff;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 30px 0;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 10px 0;
+    }
+    h2, h3 {
+      margin-top: 30px;
+    }
+    .btns button {
+      margin: 10px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #1e1e1e;
+      color: #fff;
+      cursor: pointer;
+    }
+    .socials {
+      margin-top: 15px;
+    }
+    .socials a {
+      margin: 0 10px;
+      font-size: 24px;
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .socials a:hover {
+      color: #007BFF;
+    }
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .skill, .project {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1;
+      text-align: center;
+      min-width: 150px;
+    }
+    .project img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .experience, .achievements, .contact {
+      margin-top: 30px;
+    }
+    input, textarea {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+    }
+    .contact button {
+      background: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Hi, I'm Tushar Singh 👋</h1>
+      <h2>AI & Full-Stack Developer</h2>
+      <div class="btns">
+        <a href="resume.pdf" target="_blank" style="text-decoration:none;"><button>Resume</button></a>
+        <a href="https://github.com/tusharsingh" target="_blank" style="text-decoration:none;"><button>GitHub</button></a>
+        <a href="https://www.linkedin.com/in/tusharsingh" target="_blank" style="text-decoration:none;"><button>LinkedIn</button></a>
+      </div>
+
+      <!-- Social Media Logos -->
+      <div class="socials">
+        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://leetcode.com/" target="_blank"><i class="fa-solid fa-code"></i></a>
+      </div>
+
+      <img src="./tushar copy.jpeg" alt="Tushar Singh's Profile Picture">
+    </header>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I am a passionate AI and Full Stack Developer with a solid understanding of machine learning and web development. I have a strong background in developing scalable web applications and implementing machine learning models to solve real-world problems.</p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Python</div>
+      <div class="skill">Machine Learning</div>
+      <div class="skill">SQL</div>
+      <div class="skill">MongoDB</div>
+    </section>
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <p><b>2020</b> - AI & Full Stack Developer at ABC Corp</p>
+      <p><b>2018</b> - Junior Developer at XYZ Inc.</p>
+    </section>
+
+    <section class="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>First Place, AI Hackathon 2023</li>
+        <li>AWS Certified Machine Learning Specialist</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="mob no." placeholder="mob no.">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
